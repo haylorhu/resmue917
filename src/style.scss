@@ -1,0 +1,125 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body  .waperBox{
+    border-radius: 2px;
+    box-shadow:1px 1px 1px 1px rgb(206, 206, 206);
+    min-width: 920px;
+    margin: 30px auto 0px auto;
+    background: #fff;
+}
+.clearfix::after{
+    content: ''; 
+    clear: both;
+    display: block
+}
+body  .button{
+    background:-webkit-linear-gradient(top, #abd9f8 0%,#43e3f8 100%);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 2px;
+    margin:3px 3px;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+body{
+    background: rgb(245, 245, 245);
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    // border: 1px solid red; 
+    // justify-content: center;
+    .nameCard-waper{
+        margin: 70px auto 0px auto;
+        .nameCard{
+        padding-top: 50px;
+       
+        background: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+            .photo{
+                height: 50px; 
+                width: 50px;
+                border: 1px solid red;
+                
+            }
+            .myName{
+                color:black;
+                text-align: center;
+                vertical-align:  center;
+                display: flex;
+                flex-direction: column; 
+                h1{
+                    font-size: 22px;  
+                text-align: center;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                }
+                h2{
+                    font-size: 18px;
+                    margin: 10px 0px;
+                }
+                .connectMe{
+                    display: flex;
+                    justify-content: space-around; 
+                    margin-bottom: 10px;
+                }            
+            }   
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            // background: rgb(242, 242, 245);
+            margin: 10px;
+
+        } 
+    } 
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 0 1px 0px rgba(0,0,0,0.3), 0 0 6px 2px rgba(0,0,0,0.15);
+        background: rgba(255,255,255,0.94);
+        a{
+            float: left;
+            padding-top: 20px; 
+            padding-left: 88px;
+        }
+        ul{
+            float: right;
+            padding: 18px 73px 18px 0px;  
+            li{
+                float: left;
+                padding-left: 30px;
+            }
+        }
+
+    }
+    .itemDispaly{
+        img{
+            margin: 20px 0px;
+        }
+        a{
+            .button{
+                 margin: 20px 200px ;
+            }
+           
+        }
+    }
+   
+}
